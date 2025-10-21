@@ -186,7 +186,7 @@ entire database to a file, so that you can close it and later reopen it. To do
 this, open a connection to a file (it doesn't have to exist yet) at the
 beginning of your session:
 
-```
+```python
 import duckdb
 
 with duckdb.connect("path/to/file.db") as con:
